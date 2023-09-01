@@ -1,0 +1,99 @@
+/* Estilos para el header */
+/* Estilos para todos los dispositivos */
+body {
+    font-family: arial, monospace;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+
+header h1{
+    font-family: candara;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    
+}
+header  h1{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    margin: 0 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer {
+    text-align: center;
+    background-color: #333;
+    padding: 10px;
+    color: white;
+}
+form label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+form input,
+form textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+label {
+    font-weight: bolder;
+}
+input [type="text"],
+input[type="email"],
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    display: inline;
+    border: 0.5px solid black;
+    border-radius: 3px;
+    
+}
+input[type="submit"]{
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: #45a049;
+}
+/* Estilos responsivos */
+@media (max-width: 600px) {
+    body {
+    font-size: 16px;
+    }
+    header, section, footer {
+    padding: 10px;
+  }
+}
